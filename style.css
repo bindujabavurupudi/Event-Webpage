@@ -68,6 +68,9 @@ li a:hover{
     flex-direction: column;
     align-items: center;
 }
+.body .about1 .about1{
+    font-size: 1.3vw;
+}
 
 .about1{
     font-size: 1.3vw;
