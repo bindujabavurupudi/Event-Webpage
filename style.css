@@ -73,8 +73,8 @@ li a:hover{
     width: 70vw;
     background-color: white;
     background-position: center;
-    margin: 4vh 0vw;
-    padding: 3vh 2vw;
+    margin: 2vw 0vw;
+    padding: 2vw 2vw;
     border-radius: 0.5vw;
     box-shadow: 0 0 0.5vw;
     
@@ -83,8 +83,8 @@ li a:hover{
     width: 70vw;
     background-color: white;
     background-position: center;
-    margin: 4vh 0vw;
-    padding: 3vh 2vw;
+    margin: 2vw 0vw;
+    padding: 2vw 2vw;
     border-radius: 0.5vw;
     box-shadow: 0 0 0.5vw;
 }
@@ -95,7 +95,7 @@ li a:hover{
     font-size: 2.5vw;
     padding: 3vh 0vw;
     color: rgb(9, 191, 194);
-        font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -128,8 +128,8 @@ textarea{
     margin-left: 9vw;
     font-size: 1.3vw;
 }
-.inner{
-
+.inner1{
+    width: 50vw;
 }
 
 footer{
@@ -137,4 +137,16 @@ footer{
     font-size: 1.3vw;
     background-color: green;
     background-position: center;
+}
+#id1::placeholder{
+        font-size: 1.3vw;
+
+}
+#id2::placeholder{
+        font-size: 1.3vw;
+
+}
+#id3::placeholder{
+        font-size: 1.3vw;
+
 }
