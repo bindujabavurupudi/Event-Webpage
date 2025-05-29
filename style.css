@@ -4,20 +4,19 @@
 }
 
 header{
+     width: 100vw;
     display: flex;
+     background-color: green;
     flex-direction: column;
-}
+    align-items: center;
+    justify-content: center;}
 
 .head{
-    width: 100vw;
-    height: 15vh;
     font-weight: 6vw;
     padding: 3vh 0vh;
-    background-color: green;
     text-align: center;
     font-size: 3vw;
-    align-items: center;
-    justify-content: center;
+    
     color: white;
     
 }
@@ -29,11 +28,11 @@ header{
 
 .nav{
     width: 100vw;
+     font-size: 1.3vw;
     background-color: black;
 }
 .nav ul{
-    height: 7vh;
-    width: 100vw;
+    padding: 1vh 0;
     margin-left: 3vw;
     display: flex;
     align-items: center;
@@ -99,9 +98,7 @@ li a:hover{
         font-weight: bold;
 
 }
-.text{
-    line-height: 4vh;
-}
+
 
 table, th, tr, td{
     border: 0.1vw solid black;
@@ -130,16 +127,15 @@ textarea{
 
 .text{
     margin-left: 9vw;
+    font-size: 1.3vw;
 }
 .inner{
-    margin: 2.4vh 0vw;
+
 }
 
 footer{
     text-align: center;
+    font-size: 1.3vw;
     background-color: green;
-    width: 60%;
-    margin: 2vh 15vw;
-    padding: 1vh 0vw;
-    border-radius: 0.5vw;
+    background-position: center;
 }
